@@ -169,6 +169,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 10
   rotationalSpeed: 5
+  engineMaxOverheatTreshold: 10
+  heatupRate: 3
+  cooldownRate: 4
+  _engineHeat: 0
 --- !u!50 &99274450
 Rigidbody2D:
   serializedVersion: 4
