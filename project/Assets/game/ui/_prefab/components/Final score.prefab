@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8288655167669655423}
   - component: {fileID: 8288655167669655422}
   m_Layer: 5
-  m_Name: final score
+  m_Name: Final score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: aa2e5096425b44f4ea21ee487c3c6b9c, type: 3}
+    m_Font: {fileID: 12800000, guid: f1b9b4d5354f505418046319459900ba, type: 3}
     m_FontSize: 250
     m_FontStyle: 0
     m_BestFit: 0

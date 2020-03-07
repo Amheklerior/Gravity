@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 830ee52ad67283240b81e44ff585e071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationaSpeed: 30
+  rotationaSpeed: 45
 --- !u!199 &2538096426544963828
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -612,7 +612,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_RenderMode: 5
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -5339,7 +5339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 830ee52ad67283240b81e44ff585e071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationaSpeed: 30
+  rotationaSpeed: 20
 --- !u!199 &2538096426621629926
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5380,7 +5380,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_RenderMode: 5
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -10089,7 +10089,7 @@ Transform:
   m_GameObject: {fileID: 2538096426940829244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 2538096428048960986}
   - {fileID: 2538096427969396164}
@@ -10125,7 +10125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerMultiplierRange: {x: 0.8, y: 3}
-  standardGravity: 250
+  standardGravity: 1200
   standardInfluenceRadius: 8
   _centerOfGravity: {x: 0, y: 0}
 --- !u!1 &2538096427698520357
@@ -10173,7 +10173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 830ee52ad67283240b81e44ff585e071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationaSpeed: 50
+  rotationaSpeed: 60
 --- !u!199 &2538096427698520355
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -10214,7 +10214,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_RenderMode: 5
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -10321,7 +10321,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.3
+      scalar: 0.32
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -14940,8 +14940,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2538096428048960986}
   - component: {fileID: 2538096428048960987}
+  - component: {fileID: 2538096427089983216}
   m_Layer: 0
-  m_Name: tmp sprite
+  m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14955,8 +14956,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2538096428048960989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2538096426940829245}
   m_RootOrder: 0
@@ -14979,7 +14980,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f49cad2d35707114a8af8cc35e52db72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14999,15 +15000,34 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.19215688, g: 0.19215688, b: 0.19215688, a: 1}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 3.0207374, y: 3.0199997}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2538096427089983216
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538096428048960989}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1dba1f6971720024594e5118e7bf29d7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

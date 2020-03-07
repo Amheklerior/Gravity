@@ -1,0 +1,1843 @@
+fileFormatVersion: 2
+guid: d75216412eccc8b4f9c75a4d942e2d6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8172732902246303111
+    second: UGJ_20-02_blackhole_spritesheet_0
+  - first:
+      213: 449008479828356789
+    second: UGJ_20-02_blackhole_spritesheet_1
+  - first:
+      213: 2714366326345326513
+    second: UGJ_20-02_blackhole_spritesheet_2
+  - first:
+      213: 2246371355298470242
+    second: UGJ_20-02_blackhole_spritesheet_3
+  - first:
+      213: -7797847483768832715
+    second: UGJ_20-02_blackhole_spritesheet_4
+  - first:
+      213: -5590471422800864733
+    second: UGJ_20-02_blackhole_spritesheet_5
+  - first:
+      213: 2471010924204216441
+    second: UGJ_20-02_blackhole_spritesheet_6
+  - first:
+      213: -7790572622343750817
+    second: UGJ_20-02_blackhole_spritesheet_7
+  - first:
+      213: -309795693829175023
+    second: UGJ_20-02_blackhole_spritesheet_8
+  - first:
+      213: -7354974113361894794
+    second: UGJ_20-02_blackhole_spritesheet_9
+  - first:
+      213: 8591165831287339722
+    second: UGJ_20-02_blackhole_spritesheet_10
+  - first:
+      213: -5197524753201482129
+    second: UGJ_20-02_blackhole_spritesheet_11
+  - first:
+      213: 8356654798721975348
+    second: UGJ_20-02_blackhole_spritesheet_12
+  - first:
+      213: 2224780978721042473
+    second: UGJ_20-02_blackhole_spritesheet_13
+  - first:
+      213: -2042576348156876154
+    second: UGJ_20-02_blackhole_spritesheet_14
+  - first:
+      213: 6691257810785474220
+    second: UGJ_20-02_blackhole_spritesheet_15
+  - first:
+      213: -3672678131645666989
+    second: UGJ_20-02_blackhole_spritesheet_16
+  - first:
+      213: -3753607156058138983
+    second: UGJ_20-02_blackhole_spritesheet_17
+  - first:
+      213: -2651123602510232141
+    second: UGJ_20-02_blackhole_spritesheet_18
+  - first:
+      213: -2267818088415993320
+    second: UGJ_20-02_blackhole_spritesheet_19
+  - first:
+      213: -6656987151716014423
+    second: UGJ_20-02_blackhole_spritesheet_20
+  - first:
+      213: -221761723565025035
+    second: UGJ_20-02_blackhole_spritesheet_21
+  - first:
+      213: 938079913667038905
+    second: UGJ_20-02_blackhole_spritesheet_22
+  - first:
+      213: -8121052358006686566
+    second: UGJ_20-02_blackhole_spritesheet_23
+  - first:
+      213: -3311826139026587594
+    second: UGJ_20-02_blackhole_spritesheet_24
+  - first:
+      213: 7126193997766838166
+    second: UGJ_20-02_blackhole_spritesheet_25
+  - first:
+      213: -4201528548021880336
+    second: UGJ_20-02_blackhole_spritesheet_26
+  - first:
+      213: -6678443147958695338
+    second: UGJ_20-02_blackhole_spritesheet_27
+  - first:
+      213: -4910300107038365963
+    second: UGJ_20-02_blackhole_spritesheet_28
+  - first:
+      213: 5766651272854939227
+    second: UGJ_20-02_blackhole_spritesheet_29
+  - first:
+      213: -7080254677372476663
+    second: UGJ_20-02_blackhole_spritesheet_30
+  - first:
+      213: -6885774279679299826
+    second: UGJ_20-02_blackhole_spritesheet_31
+  - first:
+      213: 2533423224858599777
+    second: UGJ_20-02_blackhole_spritesheet_32
+  - first:
+      213: -2250307813172618810
+    second: UGJ_20-02_blackhole_spritesheet_33
+  - first:
+      213: 3745409000176750947
+    second: UGJ_20-02_blackhole_spritesheet_34
+  - first:
+      213: 4331118476326581069
+    second: UGJ_20-02_blackhole_spritesheet_35
+  - first:
+      213: 1853570281105349622
+    second: UGJ_20-02_blackhole_spritesheet_36
+  - first:
+      213: 2155224604892636334
+    second: UGJ_20-02_blackhole_spritesheet_37
+  - first:
+      213: -8188775244104626675
+    second: UGJ_20-02_blackhole_spritesheet_38
+  - first:
+      213: -4966996315593053179
+    second: UGJ_20-02_blackhole_spritesheet_39
+  - first:
+      213: -6303925056836631722
+    second: UGJ_20-02_blackhole_spritesheet_40
+  - first:
+      213: -6394196210072928672
+    second: UGJ_20-02_blackhole_spritesheet_41
+  - first:
+      213: -2592419065085503056
+    second: UGJ_20-02_blackhole_spritesheet_42
+  - first:
+      213: 4542715026871692920
+    second: UGJ_20-02_blackhole_spritesheet_43
+  - first:
+      213: -3415154512257625488
+    second: UGJ_20-02_blackhole_spritesheet_44
+  - first:
+      213: -8538129442820845124
+    second: UGJ_20-02_blackhole_spritesheet_45
+  - first:
+      213: 4690781305001930885
+    second: UGJ_20-02_blackhole_spritesheet_46
+  - first:
+      213: 4704897736206354785
+    second: UGJ_20-02_blackhole_spritesheet_47
+  - first:
+      213: 7340443528046967380
+    second: UGJ_20-02_blackhole_spritesheet_48
+  - first:
+      213: -4342970934368629350
+    second: UGJ_20-02_blackhole_spritesheet_49
+  - first:
+      213: 9061683511947494362
+    second: UGJ_20-02_blackhole_spritesheet_50
+  - first:
+      213: -8323579594923002988
+    second: UGJ_20-02_blackhole_spritesheet_51
+  - first:
+      213: 9114838235299109092
+    second: UGJ_20-02_blackhole_spritesheet_52
+  - first:
+      213: 2078539634993331606
+    second: UGJ_20-02_blackhole_spritesheet_53
+  - first:
+      213: 8788153944316422396
+    second: UGJ_20-02_blackhole_spritesheet_54
+  - first:
+      213: -5205745306750979061
+    second: UGJ_20-02_blackhole_spritesheet_55
+  - first:
+      213: 5438274640697342141
+    second: UGJ_20-02_blackhole_spritesheet_56
+  - first:
+      213: 5487482127509584531
+    second: UGJ_20-02_blackhole_spritesheet_57
+  - first:
+      213: -708096608062729888
+    second: UGJ_20-02_blackhole_spritesheet_58
+  - first:
+      213: -2510665016868221393
+    second: UGJ_20-02_blackhole_spritesheet_59
+  - first:
+      213: 3150738010929294847
+    second: UGJ_20-02_blackhole_spritesheet_60
+  - first:
+      213: -5187654347136883782
+    second: UGJ_20-02_blackhole_spritesheet_61
+  - first:
+      213: 1563511358241281677
+    second: UGJ_20-02_blackhole_spritesheet_62
+  - first:
+      213: 1627009037027905587
+    second: UGJ_20-02_blackhole_spritesheet_63
+  - first:
+      213: 714291729122612901
+    second: UGJ_20-02_blackhole_spritesheet_64
+  - first:
+      213: 5549115939787922622
+    second: UGJ_20-02_blackhole_spritesheet_65
+  - first:
+      213: 6239136963724108397
+    second: UGJ_20-02_blackhole_spritesheet_66
+  - first:
+      213: 1466958548768181462
+    second: UGJ_20-02_blackhole_spritesheet_67
+  - first:
+      213: 874305652868906036
+    second: UGJ_20-02_blackhole_spritesheet_68
+  - first:
+      213: -8458006752651458210
+    second: UGJ_20-02_blackhole_spritesheet_69
+  - first:
+      213: -5142442335160565799
+    second: UGJ_20-02_blackhole_spritesheet_70
+  - first:
+      213: -4060646140950207342
+    second: UGJ_20-02_blackhole_spritesheet_71
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a3675f9be949e80800000000000000
+      internalID: -8172732902246303111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5beae4d55d23b3600800000000000000
+      internalID: 449008479828356789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf5810eacd5ba520800000000000000
+      internalID: 2714366326345326513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2699d2a88d6bc2f10800000000000000
+      internalID: 2246371355298470242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53df84d370b78c390800000000000000
+      internalID: -7797847483768832715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a5bfc4cd7aa62b0800000000000000
+      internalID: -5590471422800864733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9705d45f75bca4220800000000000000
+      internalID: 2471010924204216441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b3158e97352e390800000000000000
+      internalID: -7790572622343750817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2114
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119cd54357263bbf0800000000000000
+      internalID: -309795693829175023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672eed02302ede990800000000000000
+      internalID: -7354974113361894794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acafa5c3ec3f93770800000000000000
+      internalID: 8591165831287339722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66302e46ceaed7b0800000000000000
+      internalID: -5197524753201482129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4340364934dc8f370800000000000000
+      internalID: 8356654798721975348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920b6b3438200ee10800000000000000
+      internalID: 2224780978721042473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aae7522af47a3e0800000000000000
+      internalID: -2042576348156876154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca61d60f68f1cdc50800000000000000
+      internalID: 6691257810785474220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3592aeca2b6080dc0800000000000000
+      internalID: -3672678131645666989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1812
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9965ac4dd2288ebc0800000000000000
+      internalID: -3753607156058138983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b549b83121553bd0800000000000000
+      internalID: -2651123602510232141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81262c8c6771780e0800000000000000
+      internalID: -2267818088415993320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6a0aba471ad93a0800000000000000
+      internalID: -6656987151716014423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8d02a23e42cecf0800000000000000
+      internalID: -221761723565025035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be8d0916bab40d00800000000000000
+      internalID: 938079913667038905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cb9a658e93c4f80800000000000000
+      internalID: -8121052358006686566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63087716ca70a02d0800000000000000
+      internalID: -3311826139026587594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697c96d4fa355e260800000000000000
+      internalID: 7126193997766838166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1510
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f93e75db0c21b5c0800000000000000
+      internalID: -4201528548021880336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ac74147576153a0800000000000000
+      internalID: -6678443147958695338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f66a6b811c1bdbb0800000000000000
+      internalID: -4910300107038365963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56a21697c2470050800000000000000
+      internalID: 5766651272854939227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036aeb32e1edbd90800000000000000
+      internalID: -7080254677372476663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa13866c0d070a0800000000000000
+      internalID: -6885774279679299826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161eb671007882320800000000000000
+      internalID: 2533423224858599777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c95f8077fc45c0e0800000000000000
+      internalID: -2250307813172618810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361161244ad5af330800000000000000
+      internalID: 3745409000176750947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1208
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43b3959e493b1c30800000000000000
+      internalID: 4331118476326581069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb518b995439b910800000000000000
+      internalID: 1853570281105349622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4aec9fb55e8ed10800000000000000
+      internalID: 2155224604892636334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e81ad2d40ab5e80800000000000000
+      internalID: -8188775244104626675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ce660da2fa11bb0800000000000000
+      internalID: -4966996315593053179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65381987f85f388a0800000000000000
+      internalID: -6303925056836631722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e3472cc604347a0800000000000000
+      internalID: -6394196210072928672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9d0a47890e50cd0800000000000000
+      internalID: -2592419065085503056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e2484af37fa0f30800000000000000
+      internalID: 4542715026871692920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 906
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072dfcbb01fea90d0800000000000000
+      internalID: -3415154512257625488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb11c5a3288728980800000000000000
+      internalID: -8538129442820845124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580feab7eb0091140800000000000000
+      internalID: 4690781305001930885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1698e1f30972b4140800000000000000
+      internalID: 4704897736206354785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45afd075f7e7ed560800000000000000
+      internalID: 7340443528046967380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8c1bf1faaab3c0800000000000000
+      internalID: -4342970934368629350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad305aca42191cd70800000000000000
+      internalID: 9061683511947494362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493bce86574bc7c80800000000000000
+      internalID: -8323579594923002988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d62025196e7e70800000000000000
+      internalID: 9114838235299109092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 604
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69df85319c478dc10800000000000000
+      internalID: 2078539634993331606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8ad62637bc5f970800000000000000
+      internalID: 8788153944316422396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0473f7893a71c7b0800000000000000
+      internalID: -5205745306750979061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8b7c5f8f1a87b40800000000000000
+      internalID: 5438274640697342141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a7389cbe3772c40800000000000000
+      internalID: 5487482127509584531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06113c9f2e55c26f0800000000000000
+      internalID: -708096608062729888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ec19f1873582dd0800000000000000
+      internalID: -2510665016868221393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffde2c1178ba9bb20800000000000000
+      internalID: 3150738010929294847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3256d4bdfb108b0800000000000000
+      internalID: -5187654347136883782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 302
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d869246eb45b2b510800000000000000
+      internalID: 1563511358241281677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3301662591c449610800000000000000
+      internalID: 1627009037027905587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a65a5c0b8ca9e900800000000000000
+      internalID: 714291729122612901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc5488fb8b620d40800000000000000
+      internalID: 5549115939787922622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62e8cb130ed59650800000000000000
+      internalID: 6239136963724108397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dccc8f170fab5410800000000000000
+      internalID: 1466958548768181462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cfd58eb58222c00800000000000000
+      internalID: 874305652868906036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59ca50cbaf1f9a80800000000000000
+      internalID: -8458006752651458210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dff2d621ff52a8b0800000000000000
+      internalID: -5142442335160565799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_blackhole_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 0
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2942a1a59dfa5a7c0800000000000000
+      internalID: -4060646140950207342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c6c930664c94ede4a8088b65402838d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

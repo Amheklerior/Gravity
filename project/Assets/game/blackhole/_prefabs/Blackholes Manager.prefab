@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1652848174}
   - component: {fileID: 1652848173}
   - component: {fileID: 1652848175}
+  - component: {fileID: 2089223679}
   m_Layer: 0
   m_Name: spawner
   m_TagString: Untagged
@@ -86,6 +87,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1818360608 &2089223679
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652848171}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 0}
+    weight: 1
 --- !u!1 &2629442982790633039
 GameObject:
   m_ObjectHideFlags: 0
