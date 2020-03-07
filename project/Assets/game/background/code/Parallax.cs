@@ -6,6 +6,7 @@ namespace Amheklerior.Gravity.Level {
 
         [SerializeField] private Transform _cameraTransform;
         [SerializeField] private float parallaxEffect;
+        [SerializeField] private bool dimensionsFromSprite = true;
 
         private Vector2 _singleTileDimensions;
         private Vector2 _overallDimensions;
@@ -14,7 +15,9 @@ namespace Amheklerior.Gravity.Level {
 
         private void Start() {
             _position = transform.position;
-            _singleTileDimensions = GetComponent<ParticleSystem>().shape.scale;
+            _singleTileDimensions = dimensionsFromSprite
+                ? GetComponent<SpriteRenderer>().bounds.size 
+                : GetComponent<ParticleSystem>().shape.scale;
             _overallDimensions = _singleTileDimensions * 3;
             _transform = transform;
         }
@@ -40,13 +43,20 @@ namespace Amheklerior.Gravity.Level {
             _cameraTransform.position.x * (1 - parallaxEffect),
             _cameraTransform.position.y * (1 - parallaxEffect));
 
-            float newX = relativeCoveredDistance.x == _position.x + _singleTileDimensions.x ? _position.x + _overallDimensions.x
-                : relativeCoveredDistance.x > _position.x + _singleTileDimensions.x ? _position.x + _overallDimensions.x
-                : relativeCoveredDistance.x < _position.x - _singleTileDimensions.x ? _position.x - _overallDimensions.x
-                : _position.x;
-            float newY = relativeCoveredDistance.y > _position.y + _singleTileDimensions.y ? _position.y + _overallDimensions.y
-                : relativeCoveredDistance.y < _position.y - _overallDimensions.y ? _position.y - _overallDimensions.y
-                : _position.y;
+            float newX = _position.x;
+            if (relativeCoveredDistance.x > newX + _singleTileDimensions.x) {
+                newX += _singleTileDimensions.x;
+            } else if (relativeCoveredDistance.x < newX - _singleTileDimensions.x) {
+                newX -= _singleTileDimensions.x;
+            }
+
+            float newY = _position.y;
+            if (relativeCoveredDistance.y > newY + _singleTileDimensions.y) {
+                newY += _singleTileDimensions.y;
+            } else if (relativeCoveredDistance.y < newY - _singleTileDimensions.y) {
+                newY -= _singleTileDimensions.y;
+            }
+
             _position = new Vector2(newX, newY);
         }
     }

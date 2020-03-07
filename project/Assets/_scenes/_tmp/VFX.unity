@@ -211,22 +211,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4537447313404126754, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313415694786, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313438795396, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313445103422, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
+    - target: {fileID: 3259837457450378401, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
         type: 3}
       propertyPath: _cameraTransform
       value: 
@@ -296,97 +281,7 @@ PrefabInstance:
       propertyPath: _cameraTransform
       value: 
       objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313657984726, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313734777274, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313914446209, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313965895845, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313973579884, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447313998603931, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314070858178, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314097587288, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314145809942, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314178120958, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314214237988, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314274614553, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314366768548, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314589439042, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
     - target: {fileID: 4537447314761529441, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314763244864, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314817709457, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314896426019, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447314928393195, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
         type: 3}
       propertyPath: _cameraTransform
       value: 
@@ -397,56 +292,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 963194228}
     - target: {fileID: 4537447315031072088, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315109767786, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315173646233, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315347011050, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315361489302, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315383792006, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315386532701, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315394924512, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315408597143, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315420855162, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
-        type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 4537447315436263610, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
         type: 3}
       propertyPath: _cameraTransform
       value: 
