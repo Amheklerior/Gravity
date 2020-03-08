@@ -51,6 +51,8 @@ namespace Amheklerior.Gravity.Player {
 
         #endregion
 
+        public void DisableInput() { _inputControls.Gameplay.Disable(); }
+
         #region Movement
 
         [Header("Movement stats:")]

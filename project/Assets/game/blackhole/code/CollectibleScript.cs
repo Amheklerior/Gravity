@@ -7,6 +7,7 @@ public class CollectibleScript : MonoBehaviour {
 
     [SerializeField] private IntVariable currentlyCollectedItems;
     [SerializeField] private IntVariable requiredEnergyGlobes;
+    [SerializeField] private UnityConnectionLayer.EventSystem.Event pickupEvent;
 
     private GameObjectPool _pool;
     private AudioSource _audio;
@@ -18,7 +19,7 @@ public class CollectibleScript : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.CompareTag("Player")) {
             currentlyCollectedItems.CurrentValue++;
-            _audio.Play();
+            pickupEvent.Raise();
             if (currentlyCollectedItems.CurrentValue >= requiredEnergyGlobes.CurrentValue) {
                 collision.gameObject.GetComponent<SpaceshipController>().TriggerVictoryAnimation();
             }

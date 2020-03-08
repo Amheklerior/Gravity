@@ -118,6 +118,7 @@ MonoBehaviour:
     type: 2}
   requiredEnergyGlobes: {fileID: 11400000, guid: 97b2d48ef56fd184787e995039ee2aef,
     type: 2}
+  pickupEvent: {fileID: 11400000, guid: d5dc13cdcc5afcf47a085889f27ef0ab, type: 2}
 --- !u!95 &4918610334773958208
 Animator:
   serializedVersion: 3
@@ -147,7 +148,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6238b95e997a2f548a230d3d8c7eb4f5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f550e2757d45b654381c9838374b7baa, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -193,7 +194,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
