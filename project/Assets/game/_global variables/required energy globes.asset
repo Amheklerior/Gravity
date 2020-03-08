@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a54980a7277a8429f4c117f423c84e, type: 3}
   m_Name: required energy globes
   m_EditorClassIdentifier: 
-  defaultValue: 10
-  current: 10
+  defaultValue: 1
+  current: 1

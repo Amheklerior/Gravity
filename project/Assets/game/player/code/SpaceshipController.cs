@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using UnityCommonLibrary.Util;
 using Amheklerior.Gravity.Util;
+using Amheklerior.Gravity.Blackhole;
 
 namespace Amheklerior.Gravity.Player {
 
     [RequireComponent(typeof(Rigidbody2D))]
     public class SpaceshipController : MonoBehaviour {
+
+        [SerializeField] private BlackholesManager _levelManager;
 
         private Vector3 _initialScale;
 
@@ -15,7 +18,7 @@ namespace Amheklerior.Gravity.Player {
         private static readonly string DEAD = "dead";
         private static readonly string VICTORY = "victory";
         private Animator _anim;
-        
+
         [SerializeField] private AudioClip turboEngineSound;
         [SerializeField] private AudioClip deathSound;
         [SerializeField] private AudioClip victorySound;
@@ -41,7 +44,7 @@ namespace Amheklerior.Gravity.Player {
 
         private void OnEnable() {
             _transform.rotation = Quaternion.Euler(Vector3.zero);
-            _transform.localScale = _initialScale; 
+            _transform.localScale = _initialScale;
             _inputControls.Gameplay.Enable();
 
             _rigidbody.drag = 0.8f;
@@ -69,7 +72,7 @@ namespace Amheklerior.Gravity.Player {
         private void Rotate() => _rigidbody.AddTorque(_rotationalDirection * rotationalSpeed * Time.fixedDeltaTime, ForceMode2D.Impulse);
 
         #endregion
-        
+
         #region Engine Heating management
         [Space]
         [Header("Engine heating settings:")]
@@ -77,12 +80,12 @@ namespace Amheklerior.Gravity.Player {
         [SerializeField] private float heatupRate;
         [SerializeField] private float cooldownRate;
         [SerializeField] private FloatVariable engineCurrentHeat;
-        [SerializeField] private bool IsEngineOverheated => engineCurrentHeat.CurrentValue >= engineMaxOverheatTreshold; 
+        [SerializeField] private bool IsEngineOverheated => engineCurrentHeat.CurrentValue >= engineMaxOverheatTreshold;
         private ITimer _overheatedTimer = new Timer(1d);
 
         public void OnEngineUsage() {
             engineCurrentHeat.CurrentValue = Mathf.Clamp(engineCurrentHeat.CurrentValue + heatupRate * Time.fixedDeltaTime, 0f, engineMaxOverheatTreshold);
-            if(IsEngineOverheated) _overheatedTimer.ResetTimer();
+            if (IsEngineOverheated) _overheatedTimer.ResetTimer();
         }
         public void OnEngineRest() {
             if (_overheatedTimer.IsCountDownOver()) {
@@ -106,7 +109,7 @@ namespace Amheklerior.Gravity.Player {
             }
             if (_rotationalDirection != 0f) Rotate();
         }
-        
+
         private void OnTriggerEnter2D(Collider2D collision) {
             if (collision.gameObject.CompareTag("Blackhole center")) {
                 _rigidbody.drag = 50f;
@@ -139,8 +142,14 @@ namespace Amheklerior.Gravity.Player {
         [SerializeField] private UnityConnectionLayer.EventSystem.Event gameOverEvent;
         [SerializeField] private UnityConnectionLayer.EventSystem.Event victoryEvent;
 
-        public void GameOver() => gameOverEvent.Raise();
-        public void Victory() => victoryEvent.Raise();
+        public void GameOver() {
+            _levelManager.EmptySpace();
+            gameOverEvent.Raise();
+        }
+        public void Victory() {
+            _levelManager.EmptySpace();
+            victoryEvent.Raise();
+        }
 
         public void TriggerVictoryAnimation() => _anim.SetTrigger(VICTORY);
 
