@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityConnectionLayer.Pooling;
-using System.Linq;
 
 namespace Amheklerior.Gravity.Blackhole {
 
@@ -59,7 +58,7 @@ namespace Amheklerior.Gravity.Blackhole {
             foreach (GravitySystem blackhole in _activeBlackholesGravitySystems)
                 _blackholesPool.Release(blackhole.gameObject);
             foreach (GameObject collectible in _activeCollectiblesInTheScene)
-                _collectiblesPool.Release(collectible.gameObject);
+                _collectiblesPool.Release(collectible);
 
             _activeBlackholesGravitySystems.Clear();
             _activeCollectiblesInTheScene.Clear();

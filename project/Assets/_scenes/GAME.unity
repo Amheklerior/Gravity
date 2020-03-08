@@ -263,6 +263,10 @@ PrefabInstance:
       propertyPath: _cameraTransform
       value: 
       objectReference: {fileID: 963194228}
+    - target: {fileID: 1132254207, guid: 3bd54077788b01c40a9bb7b33a9a3b53, type: 3}
+      propertyPath: dimensionsFromSprite
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3259837457450378401, guid: 3bd54077788b01c40a9bb7b33a9a3b53,
         type: 3}
       propertyPath: _cameraTransform
@@ -1582,6 +1586,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 4474721771504902057, guid: 1a4843e1bf5b3934da3abce08b5051cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4959390301617281406, guid: 1a4843e1bf5b3934da3abce08b5051cd,
         type: 3}
       propertyPath: m_Text
@@ -1706,6 +1715,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062876619216439549, guid: 1a4843e1bf5b3934da3abce08b5051cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a4843e1bf5b3934da3abce08b5051cd, type: 3}
