@@ -114,7 +114,7 @@ namespace Amheklerior.Gravity.Blackhole {
             for (int i = 0; i < maxCollectiblesToSpawnAtOnce; i++) {
                 Transform collectible = _collectiblesPool.Get()?.transform;
                 if (collectible == null) return;
-                if (IsTooCloseToABlackhole(collectible) || IsInVisibleArea(collectible)) {
+                if (IsTooCloseToABlackhole(collectible)) {
                     _blackholesPool.Release(collectible.gameObject);
                 } else {
                     _activeCollectiblesInTheScene.Add(collectible.gameObject);

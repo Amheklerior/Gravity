@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4555408169648274460}
   - component: {fileID: 6388937601929979455}
   - component: {fileID: 3304279933665934667}
+  - component: {fileID: 2998330683951773765}
   m_Layer: 5
   m_Name: value
   m_TagString: Untagged
@@ -35,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &6388937601929979455
 CanvasRenderer:
@@ -76,7 +77,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 125623
+  m_Text: 12 / 30
+--- !u!114 &2998330683951773765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7163271063458402339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1935f507ad809489207ab04aecbe23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentlyCollected: {fileID: 11400000, guid: 25b55895e9a70534bab38fd96f4a494a, type: 2}
+  requiredToCollect: {fileID: 11400000, guid: 97b2d48ef56fd184787e995039ee2aef, type: 2}
+  element: {fileID: 3304279933665934667}
 --- !u!1 &7878119009489070723
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,8 +164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200, y: 0}
-  m_SizeDelta: {x: 150, y: 50}
+  m_AnchoredPosition: {x: -160, y: 0}
+  m_SizeDelta: {x: 280, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &2909138624433726744
 CanvasRenderer:
@@ -190,4 +206,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SCORE:'
+  m_Text: 'COLLECTED ENERGY:'
