@@ -1,17 +1,21 @@
 ﻿using UnityEngine;
 using UnityCommonLibrary.Util;
+using Amheklerior.Gravity.Util;
 
 namespace Amheklerior.Gravity.Player {
 
     [RequireComponent(typeof(Rigidbody2D))]
     public class SpaceshipController : MonoBehaviour {
-        
+
+        private Vector3 _initialScale;
+
         #region Setup
 
         private void Awake() {
             _rigidbody = GetComponent<Rigidbody2D>();
             _transform = transform;
-            
+            _initialScale = _transform.localScale;
+
             _inputControls = new InputControls();
             _inputControls.Gameplay.Move.performed += ctx => _isMovingInputProvided = true;
             _inputControls.Gameplay.Move.canceled += ctx => _isMovingInputProvided = false;
@@ -19,7 +23,12 @@ namespace Amheklerior.Gravity.Player {
             _inputControls.Gameplay.Rotate.canceled += ctx => _rotationalDirection = 0f;
         }
 
-        private void OnEnable() => _inputControls.Gameplay.Enable();
+        private void OnEnable() {
+            _transform.rotation = Quaternion.Euler(Vector3.zero);
+            _transform.localScale = _initialScale; 
+            _inputControls.Gameplay.Enable();
+            engineCurrentHeat.CurrentValue = 0f;
+        }
         private void OnDisable() => _inputControls.Gameplay.Disable();
 
         #endregion
@@ -47,17 +56,17 @@ namespace Amheklerior.Gravity.Player {
         [SerializeField] private float engineMaxOverheatTreshold;
         [SerializeField] private float heatupRate;
         [SerializeField] private float cooldownRate;
-        [SerializeField] private float _engineHeat = 0f; // TODO hide from inspector and convert to a serialized global accessible variable...
-        [SerializeField] private bool IsEngineOverheated => _engineHeat >= engineMaxOverheatTreshold; // TODO hide from inspector 
+        [SerializeField] private FloatVariable engineCurrentHeat;
+        [SerializeField] private bool IsEngineOverheated => engineCurrentHeat.CurrentValue >= engineMaxOverheatTreshold; 
         private ITimer _overheatedTimer = new Timer(1d);
 
         public void OnEngineUsage() {
-            _engineHeat = Mathf.Clamp(_engineHeat + heatupRate * Time.fixedDeltaTime, 0f, engineMaxOverheatTreshold);
+            engineCurrentHeat.CurrentValue = Mathf.Clamp(engineCurrentHeat.CurrentValue + heatupRate * Time.fixedDeltaTime, 0f, engineMaxOverheatTreshold);
             if(IsEngineOverheated) _overheatedTimer.ResetTimer();
         }
         public void OnEngineRest() {
             if (_overheatedTimer.IsCountDownOver()) {
-                _engineHeat = Mathf.Clamp(_engineHeat - cooldownRate * Time.fixedDeltaTime, 0f, engineMaxOverheatTreshold);
+                engineCurrentHeat.CurrentValue = Mathf.Clamp(engineCurrentHeat.CurrentValue - cooldownRate * Time.fixedDeltaTime, 0f, engineMaxOverheatTreshold);
             }
         }
 

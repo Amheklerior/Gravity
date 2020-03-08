@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 0ec54c6d706594645a3c5164b012ffc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7735521844455485770
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_0
+  - first:
+      213: 8439302061275624745
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_1
+  - first:
+      213: 1184282496572590399
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_2
+  - first:
+      213: -7520780376887395138
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_3
+  - first:
+      213: -9108962849358149148
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_4
+  - first:
+      213: -4022839659075994882
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_5
+  - first:
+      213: 5928294473939385410
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_6
+  - first:
+      213: 5584354715932069593
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_7
+  - first:
+      213: 4814271562368676480
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_8
+  - first:
+      213: 3063926943677379082
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_9
+  - first:
+      213: -7806445104014016095
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_10
+  - first:
+      213: -827343060918111413
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_11
+  - first:
+      213: 1588866063234971330
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_12
+  - first:
+      213: -5816309673779407738
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_13
+  - first:
+      213: 3045672125542089379
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_14
+  - first:
+      213: 87674089248102051
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_15
+  - first:
+      213: -8735437180049845074
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_16
+  - first:
+      213: -1676582187783975137
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_17
+  - first:
+      213: 3301344025761986525
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_18
+  - first:
+      213: -5860886090658291969
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_19
+  - first:
+      213: -4091034244819634920
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_20
+  - first:
+      213: 3868459728002289870
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_21
+  - first:
+      213: 5202114305913815906
+    second: UGJ_20-02_Spaceship_Flame+ship_spritesheet_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bec4f4fdd7e5a490800000000000000
+      internalID: -7735521844455485770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9253e8ae28c6e1570800000000000000
+      internalID: 8439302061275624745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f390ce1f7aa6f6010800000000000000
+      internalID: 1184282496572590399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcf5e11812d0a790800000000000000
+      internalID: -7520780376887395138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e907c3cc86769180800000000000000
+      internalID: -9108962849358149148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efafb6cd4a00c28c0800000000000000
+      internalID: -4022839659075994882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c71132a68854250800000000000000
+      internalID: 5928294473939385410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de88e6e60d9f7d40800000000000000
+      internalID: 5584354715932069593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ff379a7abfc240800000000000000
+      internalID: 4814271562368676480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0273a76251458a20800000000000000
+      internalID: 3063926943677379082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a148a8c98fe9a390800000000000000
+      internalID: -7806445104014016095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43779a9edfa484f0800000000000000
+      internalID: -827343060918111413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c63bce2449cc0610800000000000000
+      internalID: 1588866063234971330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684d5b6fa21584fa0800000000000000
+      internalID: -5816309673779407738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2ce3959a6644a20800000000000000
+      internalID: 3045672125542089379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a693a1ae1b773100800000000000000
+      internalID: 87674089248102051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea49365ca2e75c680800000000000000
+      internalID: -8735437180049845074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f836412659bb8e0800000000000000
+      internalID: -1676582187783975137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b6e076eab0dd20800000000000000
+      internalID: 3301344025761986525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffed8412723f9aea0800000000000000
+      internalID: -5860886090658291969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153191970ab937c0800000000000000
+      internalID: -4091034244819634920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec01b7b60a78fa530800000000000000
+      internalID: 3868459728002289870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Flame+ship_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26388f4366f913840800000000000000
+      internalID: 5202114305913815906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 05ddb258b5f79064a8265ba0f865df18
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

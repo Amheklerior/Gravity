@@ -128,22 +128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1652848174, guid: c81ffccdb5030874a89f243acc9560b6, type: 3}
-      propertyPath: maxNumberOfActiveBlackholes
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 1652848174, guid: c81ffccdb5030874a89f243acc9560b6, type: 3}
-      propertyPath: maxNumberOfAttempts
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1652848174, guid: c81ffccdb5030874a89f243acc9560b6, type: 3}
-      propertyPath: immutableAreaRadius
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1652848174, guid: c81ffccdb5030874a89f243acc9560b6, type: 3}
-      propertyPath: spawnAreaRadius
-      value: 150
-      objectReference: {fileID: 0}
     - target: {fileID: 2629442982790633034, guid: c81ffccdb5030874a89f243acc9560b6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -199,15 +183,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2629442982790633037, guid: c81ffccdb5030874a89f243acc9560b6,
-        type: 3}
-      propertyPath: _poolCapacity
-      value: 500
-      objectReference: {fileID: 0}
     - target: {fileID: 2629442982790633039, guid: c81ffccdb5030874a89f243acc9560b6,
         type: 3}
       propertyPath: m_Name
-      value: Blackholes Manager
+      value: LevelMap manager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81ffccdb5030874a89f243acc9560b6, type: 3}

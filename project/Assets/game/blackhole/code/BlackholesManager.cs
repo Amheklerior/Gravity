@@ -8,20 +8,25 @@ namespace Amheklerior.Gravity.Blackhole {
 
         [Header("Settings:")]
         [Space]
+        [SerializeField] private GameObjectPool _blackholesPool;
+        [SerializeField] private GameObjectPool _collectiblesPool;
         [SerializeField] private float spawnAreaRadius;
         [SerializeField] private float immutableAreaRadius;
         [SerializeField] private int maxNumberOfActiveBlackholes;
         [SerializeField] private int maxNumberOfAttempts;
+        [SerializeField] private int collectibleMinDistance;
+        [SerializeField] private int maxCollectiblesToSpawnAtOnce;
         [Space]
 
-        private GameObjectPool _blackholesPool;
         private List<GravitySystem> _activeBlackholesGravitySystems;
+        private List<GameObject> _activeCollectiblesInTheScene;
         private Transform _transform;
 
         private void Awake() {
             _transform = transform;
             _activeBlackholesGravitySystems = new List<GravitySystem>(maxNumberOfActiveBlackholes);
-            _blackholesPool = GetComponentInParent<GameObjectPool>();
+            _activeCollectiblesInTheScene = new List<GameObject>();
+
             _blackholesPool.OnGet += (GameObject instance) => {
                 instance.transform.position = GetRandomPosition();
                 instance.SetActive(true);
@@ -30,30 +35,50 @@ namespace Amheklerior.Gravity.Blackhole {
                 instance.transform.position = Vector3.zero;
                 instance.SetActive(false);
             };
+            
+            _collectiblesPool.OnGet += (GameObject instance) => {
+                instance.GetComponent<CollectibleScript>().Pool = _collectiblesPool;
+                instance.transform.position = GetRandomPosition();
+                instance.SetActive(true);
+            };
+            _collectiblesPool.OnRelease += (GameObject instance) => {
+                instance.transform.position = Vector3.zero;
+                instance.SetActive(false);
+            };
         }
 
-        private void Start() => FillAllSpaceWithBlackholes();
+        private void Start() => FillSpace();
+
+        public void FillSpace() {
+            FillAllSpaceWithBlackholes();
+            SpawnCollectibles();
+        }
+
+        /*
+        public void EmptySpace() {
+            foreach (GravitySystem blackhole in _activeBlackholesGravitySystems) {
+                _activeBlackholesGravitySystems.Remove(blackhole);
+                _blackholesPool.Release(blackhole.gameObject);
+            }
+            foreach (GameObject collectible in _activeCollectiblesInTheScene) {
+                _activeCollectiblesInTheScene.Remove(collectible);
+                _collectiblesPool.Release(collectible);
+            }
+        }
+        */
+
         private void OnTriggerExit2D(Collider2D collision) {
-            _activeBlackholesGravitySystems.Remove(collision.GetComponent<GravitySystem>());
-            _blackholesPool.Release(collision.gameObject);
-            FillNonVisibleSpaceWithBlackholes();
-        }
-
-        public void FillAllSpaceWithBlackholes() {
-            int currentAttempts = 0;
-            while (currentAttempts < maxNumberOfAttempts && _activeBlackholesGravitySystems.Count < _activeBlackholesGravitySystems.Capacity) {
-                GravitySystem newBlackhole = _blackholesPool.Get().GetComponent<GravitySystem>();
-                if (!IsTooCloseToAnotherBlackhole(newBlackhole)) {
-                    _activeBlackholesGravitySystems.Add(newBlackhole);
-                    currentAttempts = 0;
-                } else {
-                    currentAttempts++;
-                    _blackholesPool.Release(newBlackhole.gameObject);
-                }
+            if (collision.gameObject.CompareTag("Blackhole")) {
+                _activeBlackholesGravitySystems.Remove(collision.GetComponent<GravitySystem>());
+                _blackholesPool.Release(collision.gameObject);
+                FillAllSpaceWithBlackholes();
+            } else if (collision.gameObject.CompareTag("Collectible") && collision.gameObject.activeInHierarchy) {
+                _collectiblesPool.Release(collision.gameObject);
+                SpawnCollectibles();
             }
         }
 
-        public void FillNonVisibleSpaceWithBlackholes() {
+        public void FillAllSpaceWithBlackholes() {
             int currentAttempts = 0;
             while (currentAttempts < maxNumberOfAttempts && _activeBlackholesGravitySystems.Count < _activeBlackholesGravitySystems.Capacity) {
                 GravitySystem newBlackhole = _blackholesPool.Get()?.GetComponent<GravitySystem>();
@@ -81,13 +106,31 @@ namespace Amheklerior.Gravity.Blackhole {
             (newBlackhole.InfluenceRadius + blackhole.InfluenceRadius) > (newBlackhole.CenterOfGravity - blackhole.CenterOfGravity).magnitude;
 
         private bool IsInImmutableArea(GravitySystem newBlackhole) =>
-            (newBlackhole.CenterOfGravity - (Vector2) transform.position).magnitude < immutableAreaRadius;
+            (newBlackhole.CenterOfGravity - (Vector2) _transform.position).magnitude < immutableAreaRadius;
 
-        /* DEBUG
-        private void OnDrawGizmos() {
-            UnityEditor.Handles.DrawWireDisc(_transform.position, Vector3.back, immutableAreaRadius);
-            UnityEditor.Handles.DrawWireDisc(_transform.position, Vector3.back, spawnAreaRadius);
+
+        
+        private void SpawnCollectibles() {
+            for (int i = 0; i < maxCollectiblesToSpawnAtOnce; i++) {
+                Transform collectible = _collectiblesPool.Get()?.transform;
+                if (collectible == null) return;
+                if (IsTooCloseToABlackhole(collectible) || IsInVisibleArea(collectible)) {
+                    _blackholesPool.Release(collectible.gameObject);
+                } else {
+                    _activeCollectiblesInTheScene.Add(collectible.gameObject);
+                }
+            }
         }
-        */
+
+        private bool IsInVisibleArea(Transform collectible) => (collectible.position - _transform.position).magnitude < immutableAreaRadius;
+
+        private bool IsTooCloseToABlackhole(Transform collectible) {
+            Vector2 position = collectible.position;
+            foreach (GravitySystem blackhole in _activeBlackholesGravitySystems) {
+                if (collectibleMinDistance > (position - blackhole.CenterOfGravity).magnitude) return true;
+            }
+            return false;
+        }
+        
     }
 }

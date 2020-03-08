@@ -1,5 +1,99 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &694077405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 694077407}
+  - component: {fileID: 694077406}
+  m_Layer: 0
+  m_Name: Collectibles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &694077407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694077405}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2629442982790633034}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &694077406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694077405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1119457876, guid: 9047ebc76b9c99d45aa2ed2e4a0d4031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prototype: {fileID: 8298646173554536005, guid: 259006c4f8a581641bad3aaf1af8e3bd,
+    type: 3}
+  _poolCapacity: 200
+  _automaticObjectActivation: 0
+--- !u!1 &1298150292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1298150294}
+  - component: {fileID: 1298150293}
+  m_Layer: 0
+  m_Name: Blackholes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298150294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298150292}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2629442982790633034}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298150293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298150292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1119457876, guid: 9047ebc76b9c99d45aa2ed2e4a0d4031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prototype: {fileID: 2538096426940829244, guid: d3f5b2abb806651459010ea564d98d1f,
+    type: 3}
+  _poolCapacity: 500
+  _automaticObjectActivation: 0
 --- !u!1 &1652848171
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,7 +107,7 @@ GameObject:
   - component: {fileID: 1652848173}
   - component: {fileID: 1652848175}
   - component: {fileID: 2089223679}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,10 +140,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f3616fa6d51ede4da6b2d08dbf2123e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _blackholesPool: {fileID: 1298150293}
+  _collectiblesPool: {fileID: 694077406}
   spawnAreaRadius: 150
   immutableAreaRadius: 50
   maxNumberOfActiveBlackholes: 500
-  maxNumberOfAttempts: 10
+  maxNumberOfAttempts: 15
+  collectibleMinDistance: 10
+  maxCollectiblesToSpawnAtOnce: 15
 --- !u!58 &1652848173
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -104,7 +202,8 @@ PositionConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 0}
+  - sourceTransform: {fileID: 9100766294891596031, guid: 57c47eaffbec35c41a9731dd6e48976f,
+      type: 3}
     weight: 1
 --- !u!1 &2629442982790633039
 GameObject:
@@ -115,7 +214,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2629442982790633034}
-  - component: {fileID: 2629442982790633037}
   m_Layer: 0
   m_Name: Blackholes Manager
   m_TagString: Untagged
@@ -135,22 +233,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1652848172}
+  - {fileID: 1298150294}
+  - {fileID: 694077407}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2629442982790633037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2629442982790633039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1119457876, guid: 9047ebc76b9c99d45aa2ed2e4a0d4031, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _prototype: {fileID: 2538096426940829244, guid: d3f5b2abb806651459010ea564d98d1f,
-    type: 3}
-  _poolCapacity: 500
-  _automaticObjectActivation: 0

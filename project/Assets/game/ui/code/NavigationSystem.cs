@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 
-public class NavigationSystem : MonoBehaviour {
+namespace Amheklerior.Gravity.UI {
 
-    public void StartGame() {
-        Debug.Log("THE GAME STARTS!");
+    public class NavigationSystem : MonoBehaviour {
+
+        public void StartGame() {
+            Debug.Log("THE GAME STARTS!");
+        }
+
     }
-    
 }
