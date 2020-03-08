@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityConnectionLayer.Pooling;
+using System.Linq;
 
 namespace Amheklerior.Gravity.Blackhole {
 
@@ -53,22 +54,19 @@ namespace Amheklerior.Gravity.Blackhole {
             FillAllSpaceWithBlackholes();
             SpawnCollectibles();
         }
-
-        /*
+        
         public void EmptySpace() {
-            foreach (GravitySystem blackhole in _activeBlackholesGravitySystems) {
-                _activeBlackholesGravitySystems.Remove(blackhole);
+            foreach (GravitySystem blackhole in _activeBlackholesGravitySystems)
                 _blackholesPool.Release(blackhole.gameObject);
-            }
-            foreach (GameObject collectible in _activeCollectiblesInTheScene) {
-                _activeCollectiblesInTheScene.Remove(collectible);
-                _collectiblesPool.Release(collectible);
-            }
+            foreach (GameObject collectible in _activeCollectiblesInTheScene)
+                _collectiblesPool.Release(collectible.gameObject);
+
+            _activeBlackholesGravitySystems.Clear();
+            _activeCollectiblesInTheScene.Clear();
         }
-        */
 
         private void OnTriggerExit2D(Collider2D collision) {
-            if (collision.gameObject.CompareTag("Blackhole")) {
+            if (collision.gameObject.CompareTag("Blackhole") && collision.gameObject.activeInHierarchy) {
                 _activeBlackholesGravitySystems.Remove(collision.GetComponent<GravitySystem>());
                 _blackholesPool.Release(collision.gameObject);
                 FillAllSpaceWithBlackholes();

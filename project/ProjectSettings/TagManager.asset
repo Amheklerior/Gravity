@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Blackhole
   - Collectible
+  - Blackhole center
   layers:
   - Default
   - TransparentFX

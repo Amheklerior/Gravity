@@ -107,6 +107,8 @@ GameObject:
   - component: {fileID: 1652848173}
   - component: {fileID: 1652848175}
   - component: {fileID: 2089223679}
+  - component: {fileID: 1852653817}
+  - component: {fileID: 1852653821}
   m_Layer: 11
   m_Name: spawner
   m_TagString: Untagged
@@ -142,12 +144,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _blackholesPool: {fileID: 1298150293}
   _collectiblesPool: {fileID: 694077406}
-  spawnAreaRadius: 150
-  immutableAreaRadius: 50
+  spawnAreaRadius: 180
+  immutableAreaRadius: 25
   maxNumberOfActiveBlackholes: 500
   maxNumberOfAttempts: 15
-  collectibleMinDistance: 10
-  maxCollectiblesToSpawnAtOnce: 15
+  collectibleMinDistance: 3
+  maxCollectiblesToSpawnAtOnce: 5
 --- !u!58 &1652848173
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -202,9 +204,62 @@ PositionConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 9100766294891596031, guid: 57c47eaffbec35c41a9731dd6e48976f,
-      type: 3}
+  - sourceTransform: {fileID: 0}
     weight: 1
+--- !u!114 &1852653817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652848171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1636792282, guid: 9047ebc76b9c99d45aa2ed2e4a0d4031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: 3be3e5e4a30bfd642bf916b7a4249b44, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1652848174}
+        m_MethodName: EmptySpace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1852653821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652848171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1636792282, guid: 9047ebc76b9c99d45aa2ed2e4a0d4031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: f21f67fb045005a43a99aef1cfd72e35, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1652848174}
+        m_MethodName: EmptySpace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2629442982790633039
 GameObject:
   m_ObjectHideFlags: 0
