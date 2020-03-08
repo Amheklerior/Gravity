@@ -216,6 +216,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spaceship
       objectReference: {fileID: 0}
+    - target: {fileID: 9100766294891596027, guid: 57c47eaffbec35c41a9731dd6e48976f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100766294891596027, guid: 57c47eaffbec35c41a9731dd6e48976f,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100766294891596027, guid: 57c47eaffbec35c41a9731dd6e48976f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 9100766294891596031, guid: 57c47eaffbec35c41a9731dd6e48976f,
         type: 3}
       propertyPath: m_LocalPosition.x

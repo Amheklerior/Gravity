@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 2e884f49ae912d740aa6dda7ed23ff7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6399220001702946802
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_0
+  - first:
+      213: -2207604354376345782
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_1
+  - first:
+      213: -8813531761067483486
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_2
+  - first:
+      213: -5790684098095462519
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_3
+  - first:
+      213: 532465418290009523
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_4
+  - first:
+      213: 6498409889706550367
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_5
+  - first:
+      213: -5204605120872929387
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_6
+  - first:
+      213: 1738947212762532964
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_7
+  - first:
+      213: -3447427697200915589
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_8
+  - first:
+      213: 3503912792865668968
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_9
+  - first:
+      213: -1087958210897655057
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_10
+  - first:
+      213: -1507903009827313611
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_11
+  - first:
+      213: 7053822821023863974
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_12
+  - first:
+      213: 2698731747297060261
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_13
+  - first:
+      213: 8197533905141979447
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_14
+  - first:
+      213: 1685316667909460973
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_15
+  - first:
+      213: -2225106433669839746
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_16
+  - first:
+      213: -7096270190867885603
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_17
+  - first:
+      213: -246951196074348697
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_18
+  - first:
+      213: -5990852621837942422
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_19
+  - first:
+      213: -1853053139793681928
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_20
+  - first:
+      213: -8476390395898857755
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_21
+  - first:
+      213: 2131038086512211430
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_22
+  - first:
+      213: -1400069058342025345
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_23
+  - first:
+      213: 5568976562243610593
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_24
+  - first:
+      213: -8807419119115728078
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_25
+  - first:
+      213: -2652109425366446399
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_26
+  - first:
+      213: -3227458052210303195
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_27
+  - first:
+      213: -3499273513870753462
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_28
+  - first:
+      213: 6612808103605561360
+    second: UGJ_20-02_Spaceship_Victory_spritesheet_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f72411efa89ec850800000000000000
+      internalID: 6399220001702946802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1000
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47dacc39830d51e0800000000000000
+      internalID: -2207604354376345782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1000
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae13f43f8b00b580800000000000000
+      internalID: -8813531761067483486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1000
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987448e3e7b53afa0800000000000000
+      internalID: -5790684098095462519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1000
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b51b501a72b36700800000000000000
+      internalID: 532465418290009523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1000
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5428d85d5dfe2a50800000000000000
+      internalID: 6498409889706550367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597a03eb73785c7b0800000000000000
+      internalID: -5204605120872929387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 750
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ccdd3d64bf12810800000000000000
+      internalID: 1738947212762532964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 750
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b1f7f46c64820d0800000000000000
+      internalID: -3447427697200915589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 750
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f74bede1660a030800000000000000
+      internalID: 3503912792865668968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 750
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feac9fc75cbc6e0f0800000000000000
+      internalID: -1087958210897655057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 750
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5382087a33ad21be0800000000000000
+      internalID: -1507903009827313611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4dba3ab7634e160800000000000000
+      internalID: 7053822821023863974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 500
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5e5b5c932d37520800000000000000
+      internalID: 2698731747297060261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 500
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739553287ad73c170800000000000000
+      internalID: 8197533905141979447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 500
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3d9cc8492736710800000000000000
+      internalID: 1685316667909460973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 500
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e744ca9dc75de11e0800000000000000
+      internalID: -2225106433669839746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 500
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1502bebdbf48d90800000000000000
+      internalID: -7096270190867885603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f61211237a29cf0800000000000000
+      internalID: -246951196074348697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 250
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61c1a508473cdca0800000000000000
+      internalID: -5990852621837942422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 250
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1ecacbcf1a846e0800000000000000
+      internalID: -1853053139793681928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 250
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e67ae248dfcd5a80800000000000000
+      internalID: -8476390395898857755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 250
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5736559d7f29d10800000000000000
+      internalID: 2131038086512211430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 250
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77028cfb94f19ce0800000000000000
+      internalID: -1400069058342025345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7a10b7daaf84d40800000000000000
+      internalID: 5568976562243610593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8f1199f2c5c580800000000000000
+      internalID: -8807419119115728078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce41937780d13bd0800000000000000
+      internalID: -2652109425366446399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fd7865004c533d0800000000000000
+      internalID: -3227458052210303195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a410dc17745107fc0800000000000000
+      internalID: -3499273513870753462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_Victory_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 113
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018eb3f1fe965cb50800000000000000
+      internalID: 6612808103605561360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4ba6ceabc321c2541a8acb34a3bd2d54
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

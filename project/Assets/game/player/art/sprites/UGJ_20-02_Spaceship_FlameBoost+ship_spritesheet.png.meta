@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: fbfda1ca728814e498f66b8135f8ccc0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5299408192627183302
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_0
+  - first:
+      213: 2756628673729051336
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_1
+  - first:
+      213: 6254559022199391641
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_2
+  - first:
+      213: 7652501235167836538
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_3
+  - first:
+      213: -7818844228563951064
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_4
+  - first:
+      213: 3374538045381184200
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_5
+  - first:
+      213: 655923195002757416
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_6
+  - first:
+      213: 3375869220789980621
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_7
+  - first:
+      213: 6035930477324019658
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_8
+  - first:
+      213: -4125021171700201197
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_9
+  - first:
+      213: 2861273631723978383
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_10
+  - first:
+      213: -2316147912665821663
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_11
+  - first:
+      213: -7839435179994990493
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_12
+  - first:
+      213: -9006461696523641634
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_13
+  - first:
+      213: 8773942862397725015
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_14
+  - first:
+      213: 2323538279732126285
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_15
+  - first:
+      213: 4353506592225451614
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_16
+  - first:
+      213: 2325116778347322939
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_17
+  - first:
+      213: 8475207313410304558
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_18
+  - first:
+      213: 2640849005565004836
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_19
+  - first:
+      213: 6459750467736833611
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_20
+  - first:
+      213: -323835273885219451
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_21
+  - first:
+      213: 5412758099386249199
+    second: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_22
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,11 +165,494 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3179a68358b476b0800000000000000
+      internalID: -5299408192627183302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cab64b6c23814620800000000000000
+      internalID: 2756628673729051336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995c8e8ea48acc650800000000000000
+      internalID: 6254559022199391641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 810
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79ba652455233a60800000000000000
+      internalID: 7652501235167836538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8222552a992ed7390800000000000000
+      internalID: -7818844228563951064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca8cf32974c4de20800000000000000
+      internalID: 3374538045381184200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821241eabae4a1900800000000000000
+      internalID: 655923195002757416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 648
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd8c519b2f79de20800000000000000
+      internalID: 3375869220789980621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac72ad51acee3c350800000000000000
+      internalID: 6035930477324019658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31908d1891bf0c6c0800000000000000
+      internalID: -4125021171700201197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e7918553945b720800000000000000
+      internalID: 2861273631723978383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 486
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e8a42beb36bdfd0800000000000000
+      internalID: -2316147912665821663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368b2b82d3bb43390800000000000000
+      internalID: -7839435179994990493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcdb872ece920380800000000000000
+      internalID: -9006461696523641634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7595ac80c8e43c970800000000000000
+      internalID: 8773942862397725015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 324
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42a47931cdde3020800000000000000
+      internalID: 2323538279732126285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e5be40e23ca6c30800000000000000
+      internalID: 4353506592225451614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e51b21469744020800000000000000
+      internalID: 2325116778347322939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a2d91e52cfd9570800000000000000
+      internalID: 8475207313410304558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 162
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c4522cd2e26a420800000000000000
+      internalID: 2640849005565004836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e0e1f33d4a5a950800000000000000
+      internalID: 6459750467736833611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585845eb881818bf0800000000000000
+      internalID: -323835273885219451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGJ_20-02_Spaceship_FlameBoost+ship_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef290930dafd1b40800000000000000
+      internalID: 5412758099386249199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 704b07d588c46b74f9b524cb3ea23a11
     internalID: 0
     vertices: []
     indices: 
